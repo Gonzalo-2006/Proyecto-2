@@ -1,0 +1,90 @@
+*{
+    background-color:burlywood;
+}
+#Titulo{
+    text-shadow: 2px 1px 1px white;
+    font-size: 49px;
+    border: 3px solid rgb(223, 193, 154);
+    border-radius: 10px 10px 35px 10px;
+    box-shadow: 1px 1px 12px;
+    width: 50%;  
+    text-align: center;
+    position:relative;
+    left: 25%;
+    
+}
+#Titulo:hover{
+    color: whitesmoke;
+    text-shadow: 2px 1px 1px black;
+    
+}
+.info:hover{
+    color: red;
+}
+.titulo{
+    background-color: whitesmoke;
+}
+.base{
+    border:2px solid red;
+    text-align: center;
+    border-radius: 24px;
+    background-color:whitesmoke;
+}
+
+ul{
+    color: green;
+    background-color: whitesmoke;
+  
+}
+ul :hover{
+    color:red;
+}
+
+.menu{
+    display: inline-flex;
+    width: 70px;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+li a{
+    color:green;
+    background-color: whitesmoke;
+    
+}
+li a:hover{
+    color:red;
+}
+
+#version{
+    text-align:center;
+    
+}
+/*LIneas de menu*/
+#Uno{
+    background-color: whitesmoke;
+}
+#Dos{
+    background-color: whitesmoke;
+}
+#Tres{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration-line: none;
+}
+#boton{
+   border: 1px solid red;
+   border-radius: 15px;
+   background-color: whitesmoke;
+   
+}
+#boton:active{
+   border: 1px solid gray;
+   border-radius: 15px;
+   background-color:whitesmoke;
+   box-shadow: 2px 4px 12px 2px black;
+   transform: translate(2px);
+}

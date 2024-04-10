@@ -1,0 +1,157 @@
+*{
+   padding: 0;
+   
+}
+
+h1{
+    border: 2px solid black;
+    text-align: center;
+    background-color: gray;
+    color:greenyellow;
+}
+.titulo a{
+    display:inline-block;
+    list-style: none;
+    text-shadow: 2px 5px 5px black;
+    border: 2px solid greenyellow;
+    border-radius: 9px;
+}
+.titulo a:hover{
+    border:2px solid aqua;
+    border-radius: 9px;
+}
+h1:hover{
+    color:aqua;
+    font-family: cursive;
+}
+
+
+
+.menu{
+    text-align:left;
+}
+
+.menu li{
+    list-style: none;
+    padding:5px;
+    display:inline-block;
+  
+}
+.menu a{
+    color:greenyellow;
+}
+#inicio{
+    border:2px solid greenyellow;
+    border-radius:8px;
+    
+}
+#inicio:hover{
+    border: 2px solid aqua;
+}
+#siguiente{
+    border: 2px solid greenyellow;
+    border-radius:8px;
+}
+#siguiente:hover{
+    border: 2px solid aqua;
+}
+
+
+.articulos article{
+    color:greenyellow;
+    background-image: url("imagenes/edificio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 9px;
+    border: 2px solid greenyellow;
+}
+article:hover{
+    color: white;
+
+}
+.articulos footer{
+    text-align: center;
+}
+
+#titular:hover{
+    color:red;
+}
+#titula:hover{
+    color:red;
+}
+#contenido:hover{
+    color: aqua;
+}
+#conten:hover{
+    color: aqua;
+}
+
+div{
+    border: 2px solid black;
+    background-color: rgba(gray);
+    margin: 20px;
+    padding: 12px;
+    border-width: 1rem;
+    background-image: url("imagenes/imagen.jpg") ;
+    border-radius: 10px;
+}
+.fin a{
+    color: greenyellow;
+}
+
+
+.descripcion article{
+    color: greenyellow;
+   
+}
+.descripcion article{
+    background-repeat: no-repeat;
+    background-image: url("imagenes/360_F_555586190_gYzAmpabFFA1ab2yyj24SsBYiA7EWWak.jpg");
+    background-size:cover;
+    border-radius: 9px;
+    border: 2px solid greenyellow;
+}
+
+.articulos time{
+    color:greenyellow;
+    
+}
+time:hover{
+    color:aqua;
+    font-family:cursive;
+}
+
+.descripcion li{
+    list-style: none;
+}
+.referencia a{
+  color:greenyellow;
+}
+
+.titulo a{
+    color:greenyellow;
+}
+
+a:hover{
+    color: aqua;
+    font-family: cursive;
+}
+
+a:active{
+    color:red;
+}
+
+#dentro:hover{
+    color: aqua;
+}
+#item:hover{
+    color: white;
+}
+.gaby{
+    color: blueviolet;
+    background-color: gold;
+}
+.gaby:hover{
+    color: black;
+    background-color:whitesmoke;
+}

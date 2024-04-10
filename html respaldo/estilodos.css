@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+}
+h1 a{
+   color:black;
+   text-shadow: 2px 5px 5px black;
+}
+
+div{
+    background-image:url(imagenes/imagen.jpg);
+    margin: 100px;
+    border:2px solid black;
+    border-width:1rem;
+    border-radius: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    padding-left: 0;
+    padding:5px;
+    list-style-type:none;
+    
+}
+.menu a{
+    color:greenyellow;
+}
+.articulo article{
+    color:greenyellow;
+    background-image:url(imagenes/bloqueo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9px;
+}
+article:hover{
+    color: aqua;
+}
+#inicio:hover{
+    color: whitesmoke;
+    font-family:cursive;
+    
+}
+#inicio{
+    border-radius:9px;
+}
+h2{
+    text-align: center;
+    background-color:gray;
+    
+}
+.fin{
+    text-align:center;
+    padding: 5px;
+}
+.fin a{
+    color:greenyellow;
+
+}
+
+a:visited{
+    color:greenyellow;
+}
+
+a:hover{
+    color: aqua;
+    font-family: cursive;
+}
+
+a:active{
+    color:red;
+}
+
+
+
+
+
+th, td{
+    border: 2px solid greenyellow;
+    padding: 3px;
+    border-radius: 9px;
+    background-color:gray;
+    color:greenyellow;
+    text-align: center;
+}
+.tabla{
+    background-color:greenyellow;
+    color:gray;
+    border:3px solid gray;
+    position: relative;
+    left:270px;
+}
+
+.tabla:hover{
+   background-color:gray;
+   color:greenyellow;
+   border:2px solid greenyellow;
+   font-family: cursive;
+  
+}
+.nombre:hover{
+    background-color:greenyellow;
+    color:gray;
+    border: 3px solid gray;
+    font-family:cursive;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
